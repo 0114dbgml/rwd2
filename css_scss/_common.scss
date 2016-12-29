@@ -1,0 +1,17 @@
+/* 이 주석은 CSS파일에도 추가 -작업 할 때 */
+// 이 주석은 css에 추가 안 된다. -파일 설명
+
+/* 공통 style */
+
+.clearfix{
+  &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+}
+
+
+
+/* 공통 style */
